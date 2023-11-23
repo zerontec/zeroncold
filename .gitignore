@@ -1,0 +1,9 @@
+
+
+
+
+# Dependencias
+/node_modules
+.next/
+/Envolve_nextjs_package/
+__MACOSX/
