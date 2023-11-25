@@ -22,22 +22,24 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={5} wrapperCls="home_5">
+            <Layout headerStyle={5} footerStyle={3} wrapperCls="home_5">
                 <Banner />
 
                 
                 <Feature />
                 <About />
                 <Services />
-                <WhyChooseUs />
-                <Projects />
-                <Services />
-                <Testimonial />
                 <Process />
-                <News />
-                <Award />
-                <Contact />
+                <WhyChooseUs />
+                {/* <Projects /> */}
+                {/* <Services />
+                <Testimonial /> */}
+                
+                {/* <News /> */}
+                {/* <Award /> */}
                 <Client />
+                <Contact />
+                
 
            
             </Layout>

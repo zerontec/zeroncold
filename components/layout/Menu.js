@@ -13,10 +13,10 @@ export default function Menu() {
             </ul> */}
 
             <ul className="navigation clearfix">
-                <li className="dropdown"><Link href="/">Home</Link>
-                    <ul>
-                        <li><Link href="/">Home Business</Link></li>
-                        <li><Link href="/index-2">Home Consulting</Link></li>
+                <li ><Link href="/">Home</Link>
+                    {/* <ul> */}
+                        {/* <li><Link href="/">Home Business</Link></li> */}
+                        {/* <li><Link href="/index-2">Home Consulting</Link></li>
                         <li><Link href="/index-3">Home Corporate</Link></li>
                         <li><Link href="/index-4">Home Software</Link></li>
                         <li><Link href="/index-5">Home Finance</Link></li>
@@ -29,19 +29,19 @@ export default function Menu() {
                         <li><Link href="/index-12">Home Online Course</Link></li>
                         <li><Link href="/index-13">Home Construction</Link></li>
                         <li><Link href="/index-14">Home Architecture</Link></li>
-                        <li><Link href="/index-15">Home Digital Agency</Link></li>
-                    </ul>
+                        <li><Link href="/index-15">Home Digital Agency</Link></li> */}
+                    {/* </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Company</Link>
-                    <ul>
+                <li  ><Link href="/about">Empresa</Link>
+                    {/* <ul> 
                         <li className="dropdown"><Link href="#">About Us</Link>
                             <ul>
                                 <li><Link href="/about-1">About Style 01</Link></li>
                                 <li><Link href="/about-2">About Style 02</Link></li>
                                 <li><Link href="/about-3">About Style 03</Link></li>
                             </ul>
-                        </li>
-                        <li className="dropdown"><Link href="#">Meet Our Team</Link>
+                        </li> 
+                         <li className="dropdown"><Link href="#">Meet Our Team</Link>
                             <ul>
                                 <li><Link href="/team-1">Team Style 01</Link></li>
                                 <li><Link href="/team-2">Team Style 02</Link></li>
@@ -49,11 +49,11 @@ export default function Menu() {
                                 <li><Link href="/team-4">Team Style 04</Link></li>
                                 <li><Link href="/team-details">Team Details</Link></li>
                             </ul>
-                        </li>
-                    </ul>
+                        </li> 
+                     </ul>  */}
                 </li>
-                <li className="dropdown"><Link href="#">Services</Link>
-                    <ul>
+                <li  ><Link href="/services">Servicios</Link>
+                    {/* <ul>
                         <li><Link href="/services">Our All Services</Link></li>
                         <li><Link href="/finance-restructuring">Finance &amp; Restructuring</Link></li>
                         <li><Link href="/audit-assurance">Audit &amp; Assurance</Link></li>
@@ -61,10 +61,10 @@ export default function Menu() {
                         <li><Link href="/strategy-planning">Strategy &amp; Planning</Link></li>
                         <li><Link href="/software-research">Software &amp; Research</Link></li>
                         <li><Link href="/support-maintenance">Support &amp; Maintenance</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Pages</Link>
-                    <ul>
+                <li  ><Link href="/faq">FAQ’s</Link>
+                    {/* <ul>
                         <li><Link href="/career">Career</Link></li>
                         <li className="dropdown"><Link href="#">Contact</Link>
                             <ul>
@@ -90,10 +90,10 @@ export default function Menu() {
                             </ul>
                         </li>
                         <li><Link href="/404">404</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Portfolio</Link>
-                    <ul>
+                <li ><Link href="/contact">Contactanos</Link>
+                    {/* <ul>
                         <li className="dropdown"><Link href="#">Portfolio Grid</Link>
                             <ul>
                                 <li><Link href="/portfolio-1">Grid View 01</Link></li>
@@ -103,9 +103,9 @@ export default function Menu() {
                         </li>
                         <li><Link href="/portfolio-4">Portfolio Masonry</Link></li>
                         <li><Link href="/portfolio-details">Portfolio Details</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Blog</Link>
+                {/* <li className="dropdown"><Link href="#">Blog</Link>
                     <ul>
                         <li className="dropdown"><Link href="#">Blog Default</Link>
                             <ul>
@@ -134,15 +134,15 @@ export default function Menu() {
                             </ul>
                         </li>
                     </ul>
-                </li>
-                <li className="dropdown"><Link href="#">Shop</Link>
-                    <ul>
+                </li> */}
+                <li ><Link href="#">Shop</Link>
+                    {/* <ul>
                         <li><Link href="/shop">Products</Link></li>
                         <li><Link href="/product-details">Product Details</Link></li>
                         <li><Link href="/shopping-cart">Shopping Cart</Link></li>
                         <li><Link href="/checkout">Checkout</Link></li>
                         <li><Link href="/account">My Account</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
             </ul>
         </>

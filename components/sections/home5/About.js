@@ -16,21 +16,21 @@ export default function About() {
                         </div>
                         <div className="col-lg-6">
                             <div className="sec-title style-four">
-                                <h2>Leading consulting <br /> agency with global reputation </h2>
+                                <h2>Bienvenido a Zeroncold<br /> especialista en equipos de Refrigeración   </h2>
                                 <span className="text-decoration-three" />
                             </div>
                             <div className="text">
-                                <p>Every pleasures is to welcomed pain avoided owing to the duty the obligations of business it will frequently occur that pleasures have to be repudiated annoyances accepted.</p>
-                                <p>Welcomed pain avoided owing to the duty the obligations of business will frequently occur that pleasures have to repudiated.</p>
+                                <p>Nos esforzamos para poder cumplir con cada requerimiento y satisfacer las necesidades de nuestros clientes.</p>
+                                <p>Estamos en constante crecimiento y queremos que formes parte de ello  .</p>
                             </div>
                             <div className="author-box">
-                                <div className="signature"><img src="/assets/images/resource/signature.png" alt="" /></div>
+                                {/* <div className="signature"><img src="/assets/images/resource/signature.png" alt="" /></div> */}
                                 <div className="author-info">
-                                    <h4>Franklin Sinatra</h4>
-                                    <h5>Manager</h5>
+                                    <h4>Luis Eduardo Zeron </h4>
+                                    <h5>CEO</h5>
                                 </div>
                             </div>
-                            <div className="link-btn"><Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Read More <i className="fa fa-caret-right" /></span></Link></div>
+                            <div className="link-btn"><Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Saber más <i className="fa fa-caret-right" /></span></Link></div>
                         </div>
                     </div>
                 </div>

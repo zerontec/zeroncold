@@ -11,25 +11,25 @@ export default function Feature() {
                             <div className="col-lg-4 feature-block-six">
                                 <div className="inner-box">
                                     <div className="icon"><img src="/assets/images/icons/icon-27.png" alt="" /></div>
-                                    <h4>Quick Response</h4>
-                                    <div className="text">In free hour when choices <br /> easy to distinguish. </div>
-                                    <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                    <h4>Rapida Respuesta  </h4>
+                                    <div className="text">Reportes inmediatos a  <br /> técnicos en el campo. </div>
+                                    {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 feature-block-six">
                                 <div className="inner-box">
                                     <div className="icon"><img src="/assets/images/icons/icon-27.png" alt="" /></div>
-                                    <h4>Experience Team</h4>
-                                    <div className="text">To take a trivial example of <br />every physical work.</div>
-                                    <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                    <h4>Personal Experimentado </h4>
+                                    <div className="text">Contamos con un equipo altamente experimentados  <br /></div>
+                                    {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 feature-block-six">
                                 <div className="inner-box">
                                     <div className="icon"><img src="/assets/images/icons/icon-27.png" alt="" /></div>
-                                    <h4>Tailored Support</h4>
-                                    <div className="text">Explain to you how all this is <br />mistaken idea one. </div>
-                                    <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                    <h4>Soporte Personalizado</h4>
+                                    <div className="text">Hacemos seguimiento antes durante y despues  <br />de cada trabajo . </div>
+                                    {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                 </div>
                             </div>
                         </div>

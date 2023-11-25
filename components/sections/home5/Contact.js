@@ -7,9 +7,9 @@ export default function Contact() {
             <section className="contact-section-two">
                 <div className="auto-container">
                     <div className="sec-title style-four text-center">
-                        <h2>Get touch with us</h2>
+                        <h2>Ponte en contacto con Nosotros</h2>
                         <span className="text-decoration-three" />
-                        <div className="text">Which is the same as saying through shrinking from toil and pain. These cases are <br /> perfectly simple and easy to distinguish.</div>
+                        <div className="text">Con gusto reciberemos tus sugerencias o mensajes  <br /> no te preocupes estamos para servirte .</div>
                     </div>
                     <div className="row m-0">
                         <div className="col-lg-8 p-0">

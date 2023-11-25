@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Get in touch" wrapperCls="home_1">
+            <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Contactanos" wrapperCls="home_5">
                 <div>
                     <section className="contact-details-section">
                         <div className="auto-container">

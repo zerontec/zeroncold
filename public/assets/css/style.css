@@ -5750,7 +5750,7 @@ body .btn-style-one:hover {
 .main-footer {
     position: relative;
     color: rgb(196, 197, 199);
-    background-color: rgb(32, 22, 48);
+    background-color: #0f3186;
 }
 
 .main-footer .widgets-section {
@@ -12277,7 +12277,7 @@ body .btn-style-one:hover {
 
 .why-choose-us-section-two .text {
     position: relative;
-    color: #bac6e3;
+    color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -12506,7 +12506,7 @@ body .btn-style-one:hover {
     bottom: 0;
     background-image: -moz-linear-gradient(0deg, rgb(32, 22, 48) 0%, rgba(32, 22, 48, 0) 100%);
     background-image: -ms-linear-gradient(0deg, rgb(32, 22, 48) 0%, rgba(32, 22, 48, 0) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(32, 22, 48) 0%, rgba(32, 22, 48, 0) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(34 60 195) 0%, rgba(32, 22, 48, 0) 100%)
 }
 
 .page-title .content-box {

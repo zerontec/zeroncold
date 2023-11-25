@@ -7,27 +7,27 @@ export default function Client() {
                 <div className="auto-container">
                     <div className="top-content row m-0 align-items-center justify-content-between">
                         <div className="sec-title style-four light">
-                            <h2>Our trusted partners</h2>
+                            <h2>Conoces estas marcas  </h2>
                             <span className="text-decoration-three" />
                         </div>
-                        <div className="text">Which is the same as saying through shrinking from toil and pain. These cases are <br />perfectly simple and easy to distinguish.</div>
+                        <div className="text">Conocemos bien el mercado  <br />trabajamos con las mejores marcas .</div>
                     </div>
                     <div className="wrapper-box">
                         <div className="outer-box">
                             <div className="row m-0">
                                 <div className="column col-lg-3 col-md-6">
-                                    <div className="image"><img src="/assets/images/resource/client-28.png" alt="" /></div>
+                                    <div className="image"><img src="/assets/images/resource/client-33.png" alt="" /></div>
                                 </div>
                                 <div className="column col-lg-3 col-md-6">
-                                    <div className="image"><img src="/assets/images/resource/client-29.png" alt="" /></div>
+                                    <div className="image"><img src="/assets/images/resource/ls.png" alt="" /></div>
                                 </div>
                                 <div className="column col-lg-3 col-md-6">
-                                    <div className="image"><img src="/assets/images/resource/client-30.png" alt="" /></div>
+                                    <div className="image"><img src="/assets/images/resource/low.png" alt="" /></div>
                                 </div>
                                 <div className="column col-lg-3 col-md-6">
-                                    <div className="image"><img src="/assets/images/resource/client-31.png" alt="" /></div>
+                                    <div className="image"><img src="/assets/images/resource/yor.png" alt="" /></div>
                                 </div>
-                                <div className="column col-lg-3 col-md-6">
+                                {/* <div className="column col-lg-3 col-md-6">
                                     <div className="image"><img src="/assets/images/resource/client-32.png" alt="" /></div>
                                 </div>
                                 <div className="column col-lg-3 col-md-6">
@@ -38,7 +38,7 @@ export default function Client() {
                                 </div>
                                 <div className="column col-lg-3 col-md-6">
                                     <div className="image"><img src="/assets/images/resource/client-35.png" alt="" /></div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                 <div className="auto-container">
                     <div className="content-box">
                         <div className="content-wrapper">
-                            <div className="title">
+                            <div className="title" style={{marginTop:60}}>
                                 <h1>{breadcrumbTitle}</h1>
                             </div>
                             <ul className="bread-crumb clearfix">

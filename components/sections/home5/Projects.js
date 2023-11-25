@@ -10,11 +10,11 @@ export default function Projects() {
             <section className="projects-section-three">
                 <div className="auto-container">
                     <div className="sec-title style-four text-center">
-                        <h2>Our projects make uniqueness <br /> from others</h2>
+                        <h2>Mira como trabajamos  <br /> </h2>
                         <span className="text-decoration-three" />
                     </div>
                    <PortfolioFilter5/>
-                    <div className="bottom-text">We've been working hard to impress you. <Link href="#">Start your’s today <i className="fa fa-caret-right" /></Link></div>
+                    <div className="bottom-text">hemos trabajado duro para impresionarte. <Link href="#">Solicita una Visita técnica  <i className="fa fa-caret-right" /></Link></div>
                 </div>
             </section>
         </>

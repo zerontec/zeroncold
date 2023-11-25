@@ -61,12 +61,12 @@ export default function ContactSlider5() {
                 <SwiperSlide className="slide-item">
                     <div className="contact-info">
                         <div className="logo"><img src="/assets/images/logo-v5.png" alt="" /></div>
-                        <h4>Head Office</h4>
+                        <h4>Dirección</h4>
                         <ul>
-                            <li>33/2 Korur Ap. Beyoglu, 34420</li>
-                            <li>Mon - Sat: 09.00 to 06.00 Sun:Closed</li>
-                            <li>+1 800 555 44 00 &amp; 55</li>
-                            <li>supportteam@Envolve.com</li>
+                            <li>236 North 9th Street, Reading, PA, USA</li>
+                            <li>Lun - Sab: 08.00am a 9.00pm Dom:9.00am  a  6.00pm</li>
+                            <li>+1 484 9084464 &amp; </li>
+                            <li>admin@zeroncold.com</li>
                         </ul>
                         <Link href="#" className="read-more-link">Get Direction <i className="fa fa-caret-right" /></Link>
                     </div>
@@ -74,12 +74,14 @@ export default function ContactSlider5() {
                 <SwiperSlide className="slide-item">
                     <div className="contact-info">
                         <div className="logo"><img src="/assets/images/logo-v5.png" alt="" /></div>
-                        <h4>Head Office</h4>
+                        <h4>Más medios de Contactos</h4>
                         <ul>
-                            <li>33/2 Korur Ap. Beyoglu, 34420</li>
-                            <li>Mon - Sat: 09.00 to 06.00 Sun:Closed</li>
-                            <li>+1 800 555 44 00 &amp; 55</li>
-                            <li>supportteam@Envolve.com</li>
+                            <li>+1 407 3293838</li>
+                            <li>+1 484 9084464 &amp; </li>
+                            <li>admin@zeroncold.com</li>
+                            <li><button>Chat</button></li>
+        
+                           
                         </ul>
                         <Link href="#" className="read-more-link">Get Direction <i className="fa fa-caret-right" /></Link>
                     </div>

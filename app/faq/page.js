@@ -22,13 +22,13 @@ export default function Home() {
     }
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="FAQ’S" wrapperCls="home_1">
+            <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="FAQ’S" wrapperCls="home_5">
                 <div>
                     <section className="faq-section-two">
                         <div className="auto-container">
                             <div className="top-content text-center">
                                 <div className="icon"><img src="/assets/images/icons/icon-40.png" alt="" /></div>
-                                <h2>How can we help you</h2>
+                                <h2>How can we help </h2>
                                 <form action="#">
                                     <input type="email" placeholder="Enter Your Keyword" />
                                     <button className="fa fa-search" />
