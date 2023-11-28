@@ -82,7 +82,7 @@ export default function Home() {
                                             <div className="icon" style={{color:"#e91e63"}}><span className="flaticon-support-1" /></div>
                                             <h4 style={{color:"#0c2957"}}>Chatea con uno de nuestros operadores</h4>
                                             <div className="text" style={{color:"#0c2957"}}>puedes hablar directamente con unos de nuestros operadores  <br /></div>
-                                            <div className="link-btn"><Link href="#" className="theme-btn btn-style-one text-white"><span className="btn-title">LIVE CHAT</span></Link></div>
+                                            <div className="link-btn"><Link href="https://jivo.chat/PFAsPegKPB" className="theme-btn btn-style-one text-white" target="_blank" ><span className="btn-title">LIVE CHAT</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
