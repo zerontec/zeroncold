@@ -57,133 +57,97 @@ export default function ServiceSlider4() {
         <>
             <div className="position-relative">
                 <Swiper {...swiperOptions} className="theme_carousel">
+             
                     <SwiperSlide className="service-block-three">
                         <div className="inner-box">
-                            <div className="image"><img src="/assets/images/resource/image-22.jpg" alt="" /></div>
-                            <div className="content">
-                                <div className="icon"><span className="flaticon-career" /></div>
-                                <h4>Finance <br />and Restructuring</h4>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
-                            </div>
-                            <div className="overlay-content">
-                                <div className="content-wrapper">
-                                    <div className="icon-box">
-                                        <div className="icon"><span className="flaticon-career" /></div>
-                                        <h4>Finance <br />and Restructuring</h4>
-                                    </div>
-                                    <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="service-block-three">
-                        <div className="inner-box">
-                            <div className="image"><img src="/assets/images/resource/image-23.jpg" alt="" /></div>
-                            <div className="content">
-                                <h4>Audit <br /> and Assurance</h4>
-                                <div className="icon"><span className="flaticon-question" /></div>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
-                            </div>
-                            <div className="overlay-content">
-                                <div className="content-wrapper">
-                                    <div className="icon-box">
-                                        <div className="icon"><span className="flaticon-question" /></div>
-                                        <h4>Audit <br />and Assurance</h4>
-                                    </div>
-                                    <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="service-block-three">
-                        <div className="inner-box">
-                            <div className="image"><div className="image"><img src="/assets/images/resource/image-24.jpg" alt="" /></div></div>
+                            <div className="image"><div className="image"><img src="/assets/images/resource/image-23.jpg" alt="" /></div></div>
                             <div className="content">
                                 <div className="icon"><span className="flaticon-customer-service" /></div>
-                                <h4>Trades <br />and Stock Market</h4>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                <h4>Optimización de eficiencia energética:</h4>
+                                <Link href="#" className="read-more-link">Leer más <i className="fa fa-caret-right" /></Link>
                             </div>
                             <div className="overlay-content">
                                 <div className="content-wrapper">
                                     <div className="icon-box">
                                         <div className="icon"><span className="flaticon-customer-service" /></div>
-                                        <h4>Trades <br />and Stock Market</h4>
+                                        <h4>Optimización de eficiencia energética:</h4>
                                     </div>
                                     <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                        <div className="text">Optimizar el consumo de energía de sus sistemas de refrigeración, lo que puede resultar en ahorros significativos en los costos de energía.</div>
+                                        {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide className="service-block-three">
                         <div className="inner-box">
                             <div className="image"><img src="/assets/images/resource/image-22.jpg" alt="" /></div>
                             <div className="content">
                                 <div className="icon"><span className="flaticon-career" /></div>
-                                <h4>Finance <br />and Restructuring</h4>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                <h4>Instalación y mantenimiento de <br />sistemas de Refrigeración </h4>
+                                <Link href="#" className="read-more-link">Leer más <i className="fa fa-caret-right" /></Link>
                             </div>
                             <div className="overlay-content">
                                 <div className="content-wrapper">
                                     <div className="icon-box">
                                         <div className="icon"><span className="flaticon-career" /></div>
-                                        <h4>Finance <br />and Restructuring</h4>
+                                        <h4>Instalación y mantenimiento de <br />sistemas de Refrigeración </h4>
                                     </div>
                                     <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                        <div className="text"> instalación y mantenimiento de sistemas de refrigeración en entornos comerciales, como restaurantes, supermercados y tiendas minoristas.</div>
+                                        {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
+
+
                     <SwiperSlide className="service-block-three">
                         <div className="inner-box">
                             <div className="image"><img src="/assets/images/resource/image-23.jpg" alt="" /></div>
                             <div className="content">
-                                <h4>Audit <br /> and Assurance</h4>
+                                <h4>Carga de gas refrigerante</h4>
                                 <div className="icon"><span className="flaticon-question" /></div>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                <Link href="#" className="read-more-link">Leer más<i className="fa fa-caret-right" /></Link>
                             </div>
                             <div className="overlay-content">
                                 <div className="content-wrapper">
                                     <div className="icon-box">
                                         <div className="icon"><span className="flaticon-question" /></div>
-                                        <h4>Audit <br />and Assurance</h4>
+                                        <h4> Carga de gas refrigerante</h4>
                                     </div>
                                     <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                        <div className="text">recarga y reemplazo de gas refrigerante en sus sistemas de refrigeración, asegurándote de que funcionen de manera óptima.
+                                         
+                                        </div>
+                                        {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
+
+
                     <SwiperSlide className="service-block-three">
                         <div className="inner-box">
                             <div className="image"><div className="image"><img src="/assets/images/resource/image-24.jpg" alt="" /></div></div>
                             <div className="content">
                                 <div className="icon"><span className="flaticon-customer-service" /></div>
-                                <h4>Trades <br />and Stock Market</h4>
-                                <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                <h4>Limpieza y Desifección</h4>
+                                <Link href="#" className="read-more-link">Leer más <i className="fa fa-caret-right" /></Link>
                             </div>
                             <div className="overlay-content">
                                 <div className="content-wrapper">
                                     <div className="icon-box">
                                         <div className="icon"><span className="flaticon-customer-service" /></div>
-                                        <h4>Trades <br />and Stock Market</h4>
+                                        <h4>Limpieza y Desifección</h4>
                                     </div>
                                     <div className="outer-box">
-                                        <div className="text">Power  choices when nothing <br />we like best principle pleasure <br /> that has no annoying.</div>
-                                        <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link>
+                                        <div className="text">Servicio de limpieza y desinfección de sistemas de aire acondicionado: servicio especializado para limpiar y desinfectar los sistemas de aire acondicionado, eliminando la acumulación de suciedad, polvo y gérmenes.</div>
+                                        {/* <Link href="#" className="read-more-link">Read More <i className="fa fa-caret-right" /></Link> */}
                                     </div>
                                 </div>
                             </div>

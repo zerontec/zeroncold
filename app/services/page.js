@@ -1,17 +1,19 @@
 
 import Layout from "@/components/layout/Layout"
+import ServiceSlider4 from "@/components/slider/ServiceSlider4"
 import TestimonialSlider5 from "@/components/slider/TestimonialSlider5"
+import VideoSlider13 from "@/components/slider/VideoSlider13"
 import Link from "next/link"
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Our services" wrapperCls="home_5">
+            <Layout headerStyle={5} footerStyle={3} breadcrumbTitle="Servicios" wrapperCls="home_5">
                 <div>
                     <section className="services-section-six">
                         <div className="auto-container">
                             <div className="sec-title text-center">
-                                <h2>Professional and <br /> dedicated consulting services</h2>
+                                <h2>Professionales <br /> dedicados  ofrecercer sus servicios </h2>
                                 <div className="text-decoration">
                                     <span className="left" />
                                     <span className="right" />
@@ -24,12 +26,12 @@ export default function Home() {
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-34.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-up" /></div>
-                                                <h4>Finance <br /> and Restructuring</h4>
+                                                <h4>Mantenimiento preventivo:</h4>
                                             </div>
                                             <div className="overlay"><Link href="/finance-restructuring"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Business will frequent occurs that have <br /> repudiated accepted cases.</div>
+                                            <div className="text">Ofrecemos servicios de mantenimiento regular para asegurar el óptimo funcionamiento de los sistemas de refrigeración. Realizamos inspecciones, limpieza, ajustes y pruebas para evitar problemas futuros.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -39,12 +41,12 @@ export default function Home() {
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-35.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-chart" /></div>
-                                                <h4>Audit <br /> and Assurance</h4>
+                                                <h4>Reparación de sistemas de refrigeración</h4>
                                             </div>
                                             <div className="overlay"><Link href="/audit-assurance"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Obligations of business will frequently <br />occurs pleasures accepted.</div>
+                                            <div className="text">Nuestro equipo de técnicos altamente capacitados está preparado para diagnosticar y reparar cualquier tipo de avería en sistemas de refrigeración, incluyendo compresores, evaporadores, condensadores y sistemas de control.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -54,133 +56,70 @@ export default function Home() {
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-36.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-business-and-finance" /></div>
-                                                <h4>Trades <br /> and Stock Market</h4>
+                                                <h4>Instalación de sistemas de refrigeración:</h4>
                                             </div>
                                             <div className="overlay"><Link href="/trades-stock-markets"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Master-builder of human happiness no <br /> one avoids reject  pleasure itself.</div>
+                                            <div className="text">Brindamos servicios completos de instalación de sistemas de refrigeración, ya sea para hogares, oficinas o comercios. Nos encargamos de todo el proceso, desde el diseño hasta la puesta en marcha del sistema.</div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 service-block-six">
+                                {/* <div className="col-lg-4 service-block-six">
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-37.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-agreement" /></div>
-                                                <h4>Strategy <br /> and Planning</h4>
+                                                <h4>Servicio de carga de refrigerante:</h4>
                                             </div>
                                             <div className="overlay"><Link href="/strategy-planning"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Obligations of business will frequently <br />occurs pleasures accepted.</div>
+                                            <div className="text">Realizamos la recarga de refrigerante en sistemas de aire acondicionado y refrigeración, asegurando el correcto nivel de refrigerante para un rendimiento óptimo y eficiencia energética.</div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-4 service-block-six">
+                                </div> */}
+                                {/* <div className="col-lg-4 service-block-six">
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-38.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-thought" /></div>
-                                                <h4>Software <br /> and Research</h4>
+                                                <h4>Optimización de sistemas de refrigeración:</h4>
                                             </div>
                                             <div className="overlay"><Link href="/software-research"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Master-builder of human happiness no <br /> one avoids reject  pleasure itself.</div>
+                                            <div className="text">Analizamos y evaluamos los sistemas existentes para identificar posibles mejoras en términos de eficiencia energética y rendimiento. Podemos ofrecer soluciones y recomendaciones para optimizar el funcionamiento de los sistemas.</div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-4 service-block-six">
+                                </div> */}
+                                {/* <div className="col-lg-4 service-block-six">
                                     <div className="inner-box">
                                         <div className="image-box">
                                             <img className="lazy-image owl-lazy" src="/assets/images/resource/image-39.jpg" alt="" />
                                             <div className="icon-box">
                                                 <div className="icon"><span className="flaticon-gear-1" /></div>
-                                                <h4>Support <br /> and Maintenance</h4>
+                                                <h4>Reparación y mantenimiento de equipos de refrigeración comercial: </h4>
                                             </div>
                                             <div className="overlay"><Link href="/support-maintenance"><span className="flaticon-right" /></Link></div>
                                         </div>
                                         <div className="content">
-                                            <div className="text">Business will frequent occurs that have <br /> repudiated accepted cases.</div>
+                                            <div className="text">Nos especializamos en la reparación y mantenimiento de equipos de refrigeración comercial como vitrinas, cámaras frigoríficas, congeladores y enfriadores de bebidas.</div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>
                     {/* Services Section five */}
-                    <section className="services-section-five style-two">
-                        <div className="auto-container">
-                            <div className="top-content row m-0 justify-content-between">
-                                <div className="sec-title">
-                                    <h2>Industries we served</h2>
-                                    <div className="text-decoration">
-                                        <span className="left" />
-                                        <span className="right" />
-                                    </div>
-                                </div>
-                                <div className="text">Which is the same as saying through shrinking from toil and pain <br /> these perfectly simple and easy to distinguish.</div>
-                            </div>
-                            <div className="row">
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-bank" /></div>
-                                            <h4>Banking &amp; <br /> capital market</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-insurance" /></div>
-                                            <h4>Finance &amp; <br /> insurance market</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-trolley" /></div>
-                                            <h4>Logistic &amp; <br />trasportation</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-null-1" /></div>
-                                            <h4>Justice &amp; <br /> defence security</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-petroleum" /></div>
-                                            <h4>Energy &amp; <br /> resource industry</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-6 service-block-five">
-                                    <div className="inner-box">
-                                        <div className="content-box">
-                                            <div className="icon"><span className="flaticon-doctor" /></div>
-                                            <h4>Life &amp; <br /> health science</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                  
                     {/* Testimonail Section Seven */}
                     <section className="testimonial-section-seven">
                         <div className="auto-container">
                             <div className="sec-title text-center">
-                                <h2>Words from our customers</h2>
+                                <h2>Muchos más Servicios </h2>
                                 <div className="text-decoration">
                                     <span className="left" />
                                     <span className="right" />
@@ -191,30 +130,23 @@ export default function Home() {
                         </div>
                     </section>
                     {/* Feature Section Two */}
-                    <section className="feature-section-two style-two">
-                        <div className="auto-container">
-                            <div className="row">
-                                <div className="col-lg-6 feature-block-two style-two">
-                                    <div className="shape-box">
-                                        <div className="inner-box">
-                                            <div className="icon"><img src="/assets/images/icons/icon-9.png" alt="" /></div>
-                                            <h4>Become a Partner of Envolve</h4>
-                                            <div className="text">To take a trivial example, which of us undertakes <br />laborious physical exercise.</div>
+
+                        <ServiceSlider4/>   
+
+                        <hr/>
+                              
+                        <div className="widget widget_contact" style={{ backgroundImage: 'url(assets/images/background/bg-25.jpg)' }}>
+                                            <div className="widget-content">
+                                                <img src="/assets/images/icons/icon-55.png" alt="" />
+                                                <h4>Tiene alguna duda?</h4>
+                                                <div className="phone-number"><Link href="tel:+14073293838">+1 407 329 3838</Link></div>
+                                                <div className="email"><Link href="mailto:admin@zeroncold.com">admin@zeroncold.com</Link></div>
+                                                <div className="link-btn"><Link href="#" className="theme-btn btn-style-one text-white">
+                                                    <span className="btn-title">Reservar cita</span>
+                                                </Link></div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6 feature-block-two style-two">
-                                    <div className="shape-box">
-                                        <div className="inner-box">
-                                            <div className="icon"><img src="/assets/images/icons/icon-10.png" alt="" /></div>
-                                            <h4>Career Opportunities in Envolve</h4>
-                                            <div className="text">Who chooses to enjoy a pleasure that has no one <br />annoying consequences.</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                   
                 </div>
 
             </Layout>

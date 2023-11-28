@@ -22,7 +22,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="sec-title">
-                                        <h2>Professional and <br /> dedicated consulting services</h2>
+                                        <h2>Professional and <br /> dedicated consulting s</h2>
                                         <div className="text-decoration">
                                             <span className="left" />
                                             <span className="right" />

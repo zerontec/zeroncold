@@ -64,7 +64,7 @@ export default function TestimonialSlider5() {
                                     <div className="hover"><img src="/assets/images/resource/client-37.png" alt="" /></div>
                                 </div>
                                 <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
+                                <div className="text" style={{fontSize:25}}>“Servicio de limpieza y desinfección de sistemas de aire acondicionado.”</div>
                                 <div className="rating">
                                     <span className="flaticon-star" />
                                     <span className="flaticon-star" />
@@ -73,11 +73,11 @@ export default function TestimonialSlider5() {
                                     <span className="flaticon-star style-two" />
                                 </div>
                             </div>
-                            <div className="author-box">
+                            {/* <div className="author-box">
                                 <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="" /></div>
                                 <div className="author-title">Boris Elbert</div>
                                 <div className="designation">Green Tech</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -90,7 +90,7 @@ export default function TestimonialSlider5() {
                                     <div className="hover"><img src="/assets/images/resource/client-39.png" alt="" /></div>
                                 </div>
                                 <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
+                                <div className="text" style={{fontSize:25}}>“Instalación y mantenimiento de sistemas de refrigeración comercial”</div>
                                 <div className="rating">
                                     <span className="flaticon-star" />
                                     <span className="flaticon-star" />
@@ -99,11 +99,11 @@ export default function TestimonialSlider5() {
                                     <span className="flaticon-star" />
                                 </div>
                             </div>
-                            <div className="author-box">
+                            {/* <div className="author-box">
                                 <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="" /></div>
                                 <div className="author-title">Fleix Everard</div>
                                 <div className="designation">HR, Blue Soft Sol</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -116,7 +116,7 @@ export default function TestimonialSlider5() {
                                     <div className="hover"><img src="/assets/images/resource/client-37.png" alt="" /></div>
                                 </div>
                                 <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
+                                <div className="text" style={{fontSize:25}}>Reparación de refrigeradores y congeladores ”</div>
                                 <div className="rating">
                                     <span className="flaticon-star" />
                                     <span className="flaticon-star" />
@@ -125,11 +125,11 @@ export default function TestimonialSlider5() {
                                     <span className="flaticon-star style-two" />
                                 </div>
                             </div>
-                            <div className="author-box">
+                            {/* <div className="author-box">
                                 <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="" /></div>
                                 <div className="author-title">Boris Elbert</div>
                                 <div className="designation">Green Tech</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </SwiperSlide>
@@ -142,7 +142,7 @@ export default function TestimonialSlider5() {
                                     <div className="hover"><img src="/assets/images/resource/client-39.png" alt="" /></div>
                                 </div>
                                 <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
+                                <div className="text" style={{fontSize:25}}>“Servicio de recarga de gas refrigerante”</div>
                                 <div className="rating">
                                     <span className="flaticon-star" />
                                     <span className="flaticon-star" />
@@ -151,66 +151,16 @@ export default function TestimonialSlider5() {
                                     <span className="flaticon-star" />
                                 </div>
                             </div>
-                            <div className="author-box">
+                            {/* <div className="author-box">
                                 <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="" /></div>
                                 <div className="author-title">Fleix Everard</div>
                                 <div className="designation">HR, Blue Soft Sol</div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className="slide">
-                    <div className="testimonial-block-six">
-                        <div className="inner-box">
-                            <div className="top-content">
-                                <div className="logo">
-                                    <div className="default"><img src="/assets/images/resource/client-36.png" alt="" /></div>
-                                    <div className="hover"><img src="/assets/images/resource/client-37.png" alt="" /></div>
-                                </div>
-                                <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
-                                <div className="rating">
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star style-two" />
-                                </div>
-                            </div>
-                            <div className="author-box">
-                                <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="" /></div>
-                                <div className="author-title">Boris Elbert</div>
-                                <div className="designation">Green Tech</div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className="slide">
-                    <div className="testimonial-block-six">
-                        <div className="inner-box">
-                            <div className="top-content">
-                                <div className="logo">
-                                    <div className="default"><img src="/assets/images/resource/client-38.png" alt="" /></div>
-                                    <div className="hover"><img src="/assets/images/resource/client-39.png" alt="" /></div>
-                                </div>
-                                <div className="quote"><span className="flaticon-quote" /></div>
-                                <div className="text">“Envolve’s analysts have done an excellent job presenting the analysis &amp; insights. we are confident that they have helped move our business forward.”</div>
-                                <div className="rating">
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                    <span className="flaticon-star" />
-                                </div>
-                            </div>
-                            <div className="author-box">
-                                <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="" /></div>
-                                <div className="author-title">Fleix Everard</div>
-                                <div className="designation">HR, Blue Soft Sol</div>
-                            </div>
-                        </div>
-                    </div>
-                </SwiperSlide>
+            
+              
                 <div className="swiper-pagination relative" />
             </Swiper>
 

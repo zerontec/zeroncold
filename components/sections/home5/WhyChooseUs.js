@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
                                 <div className="inner-box">
                                     <div className="icon"><span className="flaticon-diamond" /></div>
                                     <h4>Experiencia y Expertise: <br /> </h4>
-                                    <div className="text">Con 10 años  de experiencia en el  sector, nuestro equipo cuenta con la experiencia y el conocimiento necesarios para abordar los desafíos más complejos.</div>
+                                    <div className="text" style={{color:"black", marginBottom:15}}>Con 10 años  de experiencia en el  sector, nuestro equipo cuenta con la experiencia y el conocimiento necesarios para abordar los desafíos más complejos.</div>
                                 </div>
                             </div>
                         </div>

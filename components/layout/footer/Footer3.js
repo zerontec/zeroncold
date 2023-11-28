@@ -11,14 +11,14 @@ export default function Footer3() {
                         <div className="row">
                             <div className="col-lg-4">
                                 <div className="footer-widget about-widget">
-                                    <h3 className="widget-title" style={{color:"grey"}}>Zeroncold</h3>
+                                    <h3 className="widget-title" style={{color:"white"}}>Zeroncold</h3>
                                     <div className="widget-content">
                                         
-                                        <div className="text" style={{color:"grey"}}> Nos esforzamos por brindar un excelente servicio.  <br /> </div>
+                                        <div className="text" style={{color:"white"}}> Nos esforzamos por brindar un excelente servicio.  <br /> </div>
                                         <ul className="list">
                                             <li><Link href="#">Tecnicos Experimentados</Link></li>
                                             <li><Link href="#">Soporte </Link></li>
-                                            <li><Link href="#">Transparecia </Link></li>
+                                            <li><Link href="#">Transparencia </Link></li>
                                         </ul>
                                         {/* <div className="image"><img src="/assets/images/resource/certificate.png" alt="" /></div> */}
                                     </div>
@@ -31,21 +31,21 @@ export default function Footer3() {
                                         <div className="row">
                                             <div className="col-sm-6">
                                                 <ul>
-                                                    <li><Link href="/about-1">La Empresa</Link></li>
-                                                    <li><Link href="/contact-1">Contactanos</Link></li>
+                                                    <li><Link href="/about"> Empresa</Link></li>
+                                                    <li><Link href="/contact">Contactanos</Link></li>
                                                     <li><Link href="/faq">FAQ’s</Link></li>
                                                     {/* <li><Link href="/team-1">Meet Team</Link></li>
                                                     <li><Link href="/blog-1">News</Link></li> */}
-                                                    <li><Link href="/portfolio-1">Proyectos</Link></li>
-                                                    <li><Link href="/service">Servicios</Link></li>
+                                                    
+                                                    <li><Link href="/services">Servicios</Link></li>
                                                 </ul>
                                             </div>
                                             <div className="col-sm-6">
                                                 <ul>
-                                                    <li><Link href="/career">Careers</Link></li>
+                                                    {/* <li><Link href="/career">Careers</Link></li> */}
                                                     {/* <li><Link href="#">Features</Link></li>
                                                     <li><Link href="#">Feedback</Link></li> */}
-                                                    <li><Link href="/pricing-1">Pricing</Link></li>
+                                                    {/* <li><Link href="/pricing-1">Pricing</Link></li> */}
                                                     {/* <li><Link href="#">Locations</Link></li> */}
                                                     <li><Link href="#">Policies</Link></li>
                                                     {/* <li><Link href="#">Industries</Link></li> */}
@@ -61,12 +61,13 @@ export default function Footer3() {
                                     <div className="widget-content">
                                         <div className="image-box">
                                             <img src="/assets/images/resource/twitter-thumb.jpg" alt="" />
-                                            <h4>Herbert law specialist</h4>
-                                            <div className="user"><Link href="#">@username_5687</Link></div>
+                                            <h4>Numeros directo </h4>
+                                            <div style={{fontSize:20, fontWeight:15,color:"white", marginTop:10}} >+1 484 9084464</div>
+                                            <div style={{fontSize:20, fontWeight:15,color:"white", marginTop:10}} >+1 407 329 3838</div>
                                         </div>
-                                        <div className="text"><Link href="#">#Consultancy</Link> UK rank <Link href="#">#Envolve</Link> as the 1st best management consultancy overall certified companies.</div>
+                                        {/* <div className="text"><Link href="#">#Consultancy</Link> UK rank <Link href="#">#Envolve</Link> as the 1st best management consultancy overall certified companies.</div>
                                         <p><Link href="#">onnet.twitter.com/2kbwebdesign</Link></p>
-                                        <div className="date"><i className="far fa-clock" />24th Feb, {new Date().getFullYear()}</div>
+                                        <div className="date"><i className="far fa-clock" />24th Feb, {new Date().getFullYear()}</div> */}
                                     </div>
                                 </div>
                             </div>

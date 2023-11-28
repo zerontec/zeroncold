@@ -11,20 +11,20 @@ export default function SearchPopup({ isPopup, handlePopup }) {
                         <form method="post" action="">
                             <div className="form-group">
                                 <fieldset>
-                                    <input type="search" className="form-control" name="search-input" placeholder="Search Here" required />
+                                    <input type="search" className="form-control" name="search-input" placeholder="Buscar " required />
                                     <input type="submit" className="theme-btn" />
                                 </fieldset>
                             </div>
                         </form>
                         <br />
-                        <h3>Recent Search Keywords</h3>
+                        {/* <h3>Recent Search Keywords</h3>
                         <ul className="recent-searches">
                             <li><Link href="#">Finance</Link></li>
                             <li><Link href="#">Idea</Link></li>
                             <li><Link href="#">Service</Link></li>
                             <li><Link href="#">Growth</Link></li>
                             <li><Link href="#">Plan</Link></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>

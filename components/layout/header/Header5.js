@@ -60,8 +60,10 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                                 {/* Main Menu End*/}
                                 <div className="navbar-right-info">
                                     <button type="button" className="theme-btn search-toggler" onClick={handlePopup}><span className="flaticon-search" /></button>
-                                    <div className="shopping-cart"><i className="flaticon-shopping-cart" /><span className="count">2</span></div>
-                                    <div className="link-btn"><a href="#" className="theme-btn btn-style-one"><span className="btn-title">Get A Quote</span></a></div>
+                                    <div className="shopping-cart"><i className="flaticon-shopping-cart" />
+                                    {/* <span className="count">2</span> */}
+                                    </div>
+                                    <div className="link-btn"><a href="#" className="theme-btn btn-style-one"><span className="btn-title">Solicita una visita</span></a></div>
                                 </div>
                             </div>
                         </div>
@@ -91,8 +93,10 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isSide
                                     {/* Main Menu End*/}
                                     <div className="navbar-right-info">
                                         <button type="button" className="theme-btn search-toggler" onClick={handlePopup}><span className="flaticon-search" /></button>
-                                        <div className="shopping-cart"><i className="flaticon-shopping-cart" /><span className="count">2</span></div>
-                                        <div className="link-btn"><a href="#" className="theme-btn btn-style-one"><span className="btn-title">Get A Quote</span></a></div>
+                                        <div className="shopping-cart"><i className="flaticon-shopping-cart" />
+                                        {/* <span className="count">2</span> */}
+                                        </div>
+                                        <div className="link-btn"><a href="#" className="theme-btn btn-style-one"><span className="btn-title">Solicite una Visita</span></a></div>
                                     </div>
                                 </div>
                             </div>

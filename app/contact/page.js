@@ -10,8 +10,8 @@ export default function Home() {
                     <section className="contact-details-section">
                         <div className="auto-container">
                             <div className="sec-title text-center">
-                                <h2>We’d love to help you</h2>
-                                <div className="text">Please feel free to get in touch using the form below. We'd love to hear your <br /> thoughts &amp; answer any questions you may have!</div>
+                                <h2>Nos encantaría ayudarte </h2>
+                                <div className="text">Por favor no dude en ponerse en contacto con nosotros, nos encantaría escuchar sus opiniones, dudas que pueda tener </div>
                                 <div className="text-decoration">
                                     <span className="left" />
                                     <span className="right" />
@@ -22,11 +22,11 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="icon-box">
                                             <div className="icon"><img src="/assets/images/icons/icon-46.png" alt="" /></div>
-                                            <h5>Location</h5>
-                                            <h4>Visit us on</h4>
+                                            <h5>Ubicación </h5>
+                                            <h4></h4>
                                         </div>
                                         <ul>
-                                            <li>3333 Raleigh St, <br /> Houston,TX 77021, USA.</li>
+                                            <li>236 North 9th Street, Reading, PA, USA</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -34,12 +34,12 @@ export default function Home() {
                                     <div className="inner-box">
                                         <div className="icon-box">
                                             <div className="icon"><img src="/assets/images/icons/icon-47.png" alt="" /></div>
-                                            <h5>24/7 service</h5>
-                                            <h4>Call us on</h4>
+                                            <h5> Atención </h5>
+                                            <h4>Llamenos </h4>
                                         </div>
                                         <ul>
-                                            <li><Link href="tel:+18005554400">+1 800 555 44 00 (Toll free)</Link></li>
-                                            <li><Link href="tel:+321556667890">+321 55 666 7890</Link></li>
+                                            <li><Link href="tel:+14849084464">+1 800 555 44 00 (Toll free)</Link></li>
+                                            <li><Link href="tel:+14073293838">+1 407 329 3838</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -51,8 +51,8 @@ export default function Home() {
                                             <h4>Mail us @</h4>
                                         </div>
                                         <ul>
-                                            <li><Link href="mailto:supportteam@Envolve.com">supportteam@Envolve.com</Link></li>
-                                            <li><Link href="mailto:career@Envolve.com">career@Envolve.com</Link></li>
+                                            <li><Link href="mailto:admin@zeroncold.com">admin@zeroncold.com</Link></li>
+                                            {/* <li><Link href="mailto:career@Envolve.com">career@Envolve.com</Link></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -61,10 +61,10 @@ export default function Home() {
                                         <div className="icon-box">
                                             <div className="icon"><img src="/assets/images/icons/icon-49.png" alt="" /></div>
                                             <h5>Off Hours</h5>
-                                            <h4>Visit between</h4>
+                                            <h4>Atencion Soporte </h4>
                                         </div>
                                         <ul>
-                                            <li>Mon - Friday: 9.00 - 6.00 <br /> Sunday (Closed)</li>
+                                            <li>Lun - Sab: 8.00 - 21.00 <br /> Dom 9.00 - 15.00</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -79,16 +79,16 @@ export default function Home() {
                                     <div className="live-contact">
                                         <div className="image"><img src="/assets/images/resource/image-40.jpg" alt="" /></div>
                                         <div className="content">
-                                            <div className="icon"><span className="flaticon-support-1" /></div>
-                                            <h4>Chat with a live</h4>
-                                            <div className="text">Let’s chat with our live experts to get <br /> aanswer your questions.</div>
+                                            <div className="icon" style={{color:"#e91e63"}}><span className="flaticon-support-1" /></div>
+                                            <h4 style={{color:"#0c2957"}}>Chatea con uno de nuestros operadores</h4>
+                                            <div className="text" style={{color:"#0c2957"}}>puedes hablar directamente con unos de nuestros operadores  <br /></div>
                                             <div className="link-btn"><Link href="#" className="theme-btn btn-style-one text-white"><span className="btn-title">LIVE CHAT</span></Link></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-8">
                                     <div className="sec-title">
-                                        <h2>Don’t hesitate <br /> to send your message to us</h2>
+                                        <h2>No lo dude para  <br />  enviarnos un mensaje</h2>
                                         <div className="text-decoration">
                                             <span className="left" />
                                             <span className="right" />
@@ -121,7 +121,7 @@ export default function Home() {
                                             <div className="col-md-12 form-group">
                                                 <div className="row m-0 justify-content-between">
                                                     <div className="note mb-30">
-                                                        <p>*We do not share your information with any third parties.</p>
+                                                        <p>*No compartimos su información con terceros .</p>
                                                     </div>
                                                     <button className="theme-btn btn-style-one mb-30" type="submit" name="submit-form"><span className="btn-title">SEND MESSAGE</span></button>
                                                 </div>
