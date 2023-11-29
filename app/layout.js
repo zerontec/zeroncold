@@ -47,6 +47,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${firaSans.variable} ${barlow.variable}`}>
             <body>{children}</body>
+            <script src="//code.jivosite.com/widget/VTZftWI7lo" async></script>
         </html>
     )
 }
